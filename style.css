@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+main {
+    background-image: url(img/исп.png);
+    height: 160vh;
+    width: 100%;
+}
+
+.container {
+   width: 80%;
+}
+
+main > div {
+    width: 694px;
+    height: 850px;
+    background-image: url(img/Rectangle\ 1.png);   
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 > div> h4 {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 61px;
+    color: #fff;   
+}
+.box1 > div > .i2 {
+    width: 504px;
+    height: 81px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 > div > input::placeholder {
+    font-size: x-large;
+}
+
+.box2 > input {
+    width: 504px;
+    height: 81px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 > input::placeholder {
+    font-size: x-large;
+}
+
+.box2 {
+    display: flex;
+    width: 504px;
+    height: 81px;
+    gap: 0px;
+}
+
+.box2 > img {
+    background-color: darkgrey;
+}
+
+.box1 > div > a > button {
+    width: 504px;
+    height: 81px;
+    background-color: #E50914;
+    text-align: center;
+    
+}
+
+.box1 > div > a > button >  h4 {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;  
+}
+
+.i1 {
+    width: 31px;
+    height: 30px;  
+    background-color: #6A6868;
+}
+
+.box3 {
+    display: flex;
+    gap: 8px;
+   align-items: center;
+}
+
+.box3 > p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #6A6868; 
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box4 > div > p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #6A6868;
+    
+}
+
+.box1 > div > h5 {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #6A6868; 
+}
+
+
+.box1 > div > h4 > span {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;    
+}
+
+.box1 > div > p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6A6868;
+}
+
+.box1 > div > p > span > a {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: lightskyblue; 
+    text-decoration: none;  
+}
+
+.box1 > div > a > button {
+    cursor: pointer;
+}
+
+
+
